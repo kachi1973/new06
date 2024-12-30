@@ -5,14 +5,14 @@
             <div class="flex">
                 <!-- Logo -->
                 <div class="shrink-0 flex items-center">
-                    <a href="{{ route('dashboard.index') }}">
+                    <a href="{{ route('dashboard') }}">
                         <x-application-logo class="block h-9 w-auto fill-current text-gray-800" />
                     </a>
                 </div>
 
                 <!-- Navigation Links -->
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                         {{ __('Dashboard') }}
                     </x-nav-link>
                 </div>
@@ -37,32 +37,32 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('shasin.index')" :active="request()->routeIs('shasin.index')">
                         写真入手状況
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('iraisaki.index')" :active="request()->routeIs('iraisaki.index')">
                         依頼先入力
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('kozai.index')" :active="request()->routeIs('kozai.index')">
                         鋼材証明書
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('kasekisai.index')" :active="request()->routeIs('kasekisai.index')">
                         過積載防止
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('satuei.index')" :active="request()->routeIs('satuei.index')">
                         撮影要領
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+                    <x-nav-link :href="route('admin.index')" :active="request()->routeIs('admin.index')">
                         保守管理
                     </x-nav-link>
                 </div>
@@ -117,7 +117,7 @@
     <!-- Responsive Navigation Menu -->
     <div :class="{'block': open, 'hidden': ! open}" class="hidden sm:hidden">
         <div class="pt-2 pb-3 space-y-1">
-            <x-responsive-nav-link :href="route('dashboard.index')" :active="request()->routeIs('dashboard.index')">
+            <x-responsive-nav-link :href="route('dashboard')" :active="request()->routeIs('dashboard')">
                 {{ __('Dashboard') }}
             </x-responsive-nav-link>
         </div>
