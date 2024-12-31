@@ -10,7 +10,9 @@
     "Confirm Password":"パスワード(確認用)",
     "Reset Password":"パスワードリセット",
     "Send Password Reset Link":"パスワードリセットリンク送信",
-    "Logout":"ログアウト",
+    "Log in":"ログイン",
+    "Log Out":"ログアウト",
+    "Profile":"プロフィール",
 
     "Verify Your Email Address":"ユーザ登録を完了してください",
     "A fresh verification link has been sent to your email address.":"新しいリンクをあなたのメールアドレスに送信しました。",

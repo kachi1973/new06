@@ -22,7 +22,7 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('iraisho.index')" :active="request()->routeIs('iraisho.index')">
+                    <x-nav-link :href="route('iraisho.show')" :active="request()->routeIs('iraisho.show')">
                         依頼書
                     </x-nav-link>
                 </div>
