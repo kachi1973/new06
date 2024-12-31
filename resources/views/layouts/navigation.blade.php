@@ -27,12 +27,12 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('sijisho.index')" :active="request()->routeIs('sijisho.index')">
+                    <x-nav-link :href="route('sijisho.show')" :active="request()->routeIs('sijisho.show')">
                         客先指示
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('kokuban.index')" :active="request()->routeIs('kokuban.index')">
+                    <x-nav-link :href="route('kokuban.show')" :active="request()->routeIs('kokuban.show')">
                         黒板
                     </x-nav-link>
                 </div>

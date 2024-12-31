@@ -5,13 +5,13 @@ namespace App\Http\Controllers\Sijisho;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class IndexController extends Controller
+class ShowController extends Controller
 {
     /**
      * Handle the incoming request.
      */
     public function __invoke(Request $request)
     {
-        return view('sijisho.index');
+        return view('sijisho.show');
     }
 }

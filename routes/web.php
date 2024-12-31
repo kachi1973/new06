@@ -16,12 +16,12 @@ Route::get('/search', App\Http\Controllers\Search\IndexController::class)
 Route::get('/iraisho', App\Http\Controllers\Iraisho\ShowController::class)
     ->middleware(['auth'])
     ->name('iraisho.show');
-Route::get('/sijisho', App\Http\Controllers\Sijisho\IndexController::class)
+Route::get('/sijisho', App\Http\Controllers\Sijisho\ShowController::class)
     ->middleware(['auth'])
-    ->name('sijisho.index');
-Route::get('/kokuban', App\Http\Controllers\Kokuban\IndexController::class)
+    ->name('sijisho.show');
+Route::get('/kokuban', App\Http\Controllers\Kokuban\ShowController::class)
     ->middleware(['auth'])
-    ->name('kokuban.index');
+    ->name('kokuban.show');
 Route::get('/shasin', App\Http\Controllers\Shasin\IndexController::class)
     ->middleware(['auth'])
     ->name('shasin.index');
