@@ -37,22 +37,22 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('shasin.index')" :active="request()->routeIs('shasin.index')">
+                    <x-nav-link :href="route('shasin.show')" :active="request()->routeIs('shasin.show')">
                         写真入手状況
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('iraisaki.index')" :active="request()->routeIs('iraisaki.index')">
+                    <x-nav-link :href="route('iraisaki.show')" :active="request()->routeIs('iraisaki.show')">
                         依頼先入力
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('kozai.index')" :active="request()->routeIs('kozai.index')">
+                    <x-nav-link :href="route('kozai.show')" :active="request()->routeIs('kozai.show')">
                         鋼材証明書
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('kasekisai.index')" :active="request()->routeIs('kasekisai.index')">
+                    <x-nav-link :href="route('kasekisai.show')" :active="request()->routeIs('kasekisai.show')">
                         過積載防止
                     </x-nav-link>
                 </div>

@@ -40,70 +40,70 @@
                 <table class="table-auto w-full text-left">
                     <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
                         <tr>
-                            <td class="py-1 border text-center  p-4">受注番号</td>
-                            <td class="py-1 border text-center  p-4">納入先</td>
-                            <td class="py-1 border text-center  p-4">案件名</td>
-                            <td class="py-1 border text-center  p-4">更新日</td>
-                            <td class="py-1 border text-center  p-4">客先指示</td>
-                            <td class="py-1 border text-center  p-4">黒板承認</td>
-                            <td class="py-1 border text-center  p-4">発行回数</td>
+                            <td class="py-1 border text-center">受注番号</td>
+                            <td class="py-1 border text-center">納入先</td>
+                            <td class="py-1 border text-center">案件名</td>
+                            <td class="py-1 border text-center">更新日</td>
+                            <td class="py-1 border text-center">客先指示</td>
+                            <td class="py-1 border text-center">黒板承認</td>
+                            <td class="py-1 border text-center">発行回数</td>
                         </tr>
                     </thead>
                     <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-                        <tr class=" py-0">
-                            <td class=" py-0 border   p-4">23-02201</td>
-                            <td class=" py-0 border   p-4">国）磐城国道</td>
-                            <td class=" py-0 border   p-4">磐城国道管内道路情報設備工事</td>
-                            <td class=" py-0 border   p-4"></td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4 flex items-center justify-between cursor-pointer">1回</td>
+                        <tr>
+                            <td class=" py-0 border ">23-02201</td>
+                            <td class=" py-0 border ">国）磐城国道</td>
+                            <td class=" py-0 border ">磐城国道管内道路情報設備工事</td>
+                            <td class=" py-0 border "></td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">1回</td>
                         </tr>
-                        <tr class=" py-0">
-                            <td class=" py-0 border   p-4">23-02017</td>
-                            <td class=" py-0 border   p-4">西）関西支社</td>
-                            <td class=" py-0 border   p-4">中国自動車道　吹田JCT～宝塚IC間ハイウェ…</td>
-                            <td class=" py-0 border   p-4"></td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4 flex items-center justify-between cursor-pointer">1回</td>
+                        <tr>
+                            <td class=" py-0 border ">23-02017</td>
+                            <td class=" py-0 border ">西）関西支社</td>
+                            <td class=" py-0 border ">中国自動車道　吹田JCT～宝塚IC間ハイウェ…</td>
+                            <td class=" py-0 border "></td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">1回</td>
                         </tr>
-                        <tr class=" py-0">
-                            <td class=" py-0 border   p-4">24-00587</td>
-                            <td class=" py-0 border   p-4">東日本高速道路(株)</td>
-                            <td class=" py-0 border   p-4">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border   p-4"></td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4 flex items-center justify-between cursor-pointer">2回
+                        <tr>
+                            <td class=" py-0 border ">24-00587</td>
+                            <td class=" py-0 border ">東日本高速道路(株)</td>
+                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
+                            <td class=" py-0 border "></td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">2回
                                 <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
                                 </svg>
                             </td>
                         </tr>
                         <tr class=" py-0 bg-neutral-200">
-                            <td class=" py-0 border   p-4">
+                            <td class=" py-0 border ">
                                 &#8627;
                                 24-00587
                             </td>
-                            <td class=" py-0 border   p-4">東日本高速道路(株)</td>
-                            <td class=" py-0 border   p-4">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border   p-4"></td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">1回目</td>
+                            <td class=" py-0 border ">東日本高速道路(株)</td>
+                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
+                            <td class=" py-0 border "></td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">1回目</td>
                         </tr>
                         <tr class=" py-0 bg-neutral-200">
-                            <td class=" py-0 border   p-4">
+                            <td class=" py-0 border ">
                                 &#8627;
                                 24-00587
                             </td>
-                            <td class=" py-0 border   p-4">東日本高速道路(株)</td>
-                            <td class=" py-0 border   p-4">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border   p-4"></td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">〇</td>
-                            <td class=" py-0 border   p-4">2回目</td>
+                            <td class=" py-0 border ">東日本高速道路(株)</td>
+                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
+                            <td class=" py-0 border "></td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">〇</td>
+                            <td class=" py-0 border ">2回目</td>
                         </tr>
                     </tbody>
                 </table>

@@ -8,22 +8,22 @@
         <table class="table-auto w-full text-left">
             <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
                 <tr>
-                    <td class="py-1 border text-center  p-4">受注番号</td>
-                    <td class="py-1 border text-center  p-4">納入先</td>
-                    <td class="py-1 border text-center  p-4">案件名</td>
-                    <td class="py-1 border text-center  p-4">更新日</td>
-                    <td class="py-1 border text-center  p-4">客先指示</td>
-                    <td class="py-1 border text-center  p-4">発行回数</td>
+                    <td class="py-1 border text-center">受注番号</td>
+                    <td class="py-1 border text-center">納入先</td>
+                    <td class="py-1 border text-center">案件名</td>
+                    <td class="py-1 border text-center">更新日</td>
+                    <td class="py-1 border text-center">客先指示</td>
+                    <td class="py-1 border text-center">発行回数</td>
                 </tr>
             </thead>
             <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-                <tr class=" py-0">
-                    <td class=" py-0 border   p-4">24-00587</td>
-                    <td class=" py-0 border   p-4">東日本高速道路(株)</td>
-                    <td class=" py-0 border   p-4">令和６年度 会津若松管内 可変式速度規制標…</td>
-                    <td class=" py-0 border   p-4"></td>
-                    <td class=" py-0 border   p-4">〇</td>
-                    <td class=" py-0 border   p-4">
+                <tr>
+                    <td class=" py-0 border ">24-00587</td>
+                    <td class=" py-0 border ">東日本高速道路(株)</td>
+                    <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
+                    <td class=" py-0 border "></td>
+                    <td class=" py-0 border ">〇</td>
+                    <td class=" py-0 border ">
                         <select class="rounded-lg">
                             <option value="1">1回目</option>
                             <option value="2" selected>2回目</option>
@@ -435,22 +435,22 @@
         <table class="table-auto w-full text-left">
             <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
                 <tr>
-                    <td class="py-1 border text-center  p-4">受注番号</td>
-                    <td class="py-1 border text-center  p-4">納入先</td>
-                    <td class="py-1 border text-center  p-4">案件名</td>
-                    <td class="py-1 border text-center  p-4">更新日</td>
-                    <td class="py-1 border text-center  p-4">客先指示</td>
-                    <td class="py-1 border text-center  p-4">発行回数</td>
+                    <td class="py-1 border text-center">受注番号</td>
+                    <td class="py-1 border text-center">納入先</td>
+                    <td class="py-1 border text-center">案件名</td>
+                    <td class="py-1 border text-center">更新日</td>
+                    <td class="py-1 border text-center">客先指示</td>
+                    <td class="py-1 border text-center">発行回数</td>
                 </tr>
             </thead>
             <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-                <tr class=" py-0">
-                    <td class=" py-0 border   p-4">24-00587</td>
-                    <td class=" py-0 border   p-4">東日本高速道路(株)</td>
-                    <td class=" py-0 border   p-4">令和６年度 会津若松管内 可変式速度規制標…</td>
-                    <td class=" py-0 border   p-4"></td>
-                    <td class=" py-0 border   p-4">〇</td>
-                    <td class=" py-0 border   p-4">
+                <tr>
+                    <td class=" py-0 border ">24-00587</td>
+                    <td class=" py-0 border ">東日本高速道路(株)</td>
+                    <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
+                    <td class=" py-0 border "></td>
+                    <td class=" py-0 border ">〇</td>
+                    <td class=" py-0 border ">
                         <select class="rounded-lg">
                             <option value="1" selected>1回目</option>
                             <option value="2">2回目</option>
