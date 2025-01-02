@@ -39,15 +39,7 @@
             <div class="p-4">
                 <table class="table-auto w-full text-left">
                     <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
-                        <tr>
-                            <td class="py-1 border text-center">受注番号</td>
-                            <td class="py-1 border text-center">納入先</td>
-                            <td class="py-1 border text-center">案件名</td>
-                            <td class="py-1 border text-center">更新日</td>
-                            <td class="py-1 border text-center">客先指示</td>
-                            <td class="py-1 border text-center">黒板承認</td>
-                            <td class="py-1 border text-center">発行回数</td>
-                        </tr>
+                        <x-juchu-table-head />
                     </thead>
                     <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
                         <tr>
@@ -68,19 +60,7 @@
                             <td class=" py-0 border ">〇</td>
                             <td class=" py-0 border  flex items-center justify-between cursor-pointer">1回</td>
                         </tr>
-                        <tr>
-                            <td class=" py-0 border ">24-00587</td>
-                            <td class=" py-0 border ">東日本高速道路(株)</td>
-                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border "></td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">2回
-                                <svg data-accordion-icon class="w-3 h-3 rotate-180 shrink-0" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5 5 1 1 5"/>
-                                </svg>
-                            </td>
-                        </tr>
+                        <x-juchu-table-row :type="1" />
                         <tr class=" py-0 bg-neutral-200">
                             <td class=" py-0 border ">
                                 &#8627;

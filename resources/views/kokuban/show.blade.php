@@ -5,30 +5,7 @@
         </h2>
     </x-slot>
     <div class="p-3">
-        <table class="table-auto w-full text-left">
-            <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
-                <tr>
-                    <td class="py-1 border text-center">受注番号</td>
-                    <td class="py-1 border text-center">納入先</td>
-                    <td class="py-1 border text-center">案件名</td>
-                    <td class="py-1 border text-center">更新日</td>
-                    <td class="py-1 border text-center">客先指示</td>
-                    <td class="py-1 border text-center">黒板承認</td>
-                    <td class="py-1 border text-center">発行回数</td>
-                </tr>
-            </thead>
-            <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-                <tr>
-                    <td class=" py-0 border ">24-00587</td>
-                    <td class=" py-0 border ">東日本高速道路(株)</td>
-                    <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標</td>
-                    <td class=" py-0 border "></td>
-                    <td class=" py-0 border ">〇</td>
-                    <td class=" py-0 border ">〇</td>
-                    <td class=" py-0 border  flex items-center justify-between cursor-pointer">2回</td>
-                </tr>
-            </tbody>
-        </table>
+        <x-juchu-table :type="0"/>
         <div class="inline-flex rounded-md shadow-sm" role="group">
             <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
                 編集
