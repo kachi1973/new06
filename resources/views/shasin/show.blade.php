@@ -143,9 +143,9 @@
                     <td class=" border">1/1</td>
                     <td class=" border"></td>
                     <td class=" border">1/15</td>
-                    <td class=" border bg-gray-500 text-yellow-300 text-center">★</td>
-                    <td class=" border bg-gray-500 text-yellow-300 text-center">★</td>
-                    <td class=" border bg-gray-500 text-yellow-300 text-center">★</td>
+                    <td class=" border text-red-500 text-center"><i class="fa-regular fa-star animate-bounce"></i></td>
+                    <td class=" border text-red-500 text-center"><i class="fa-regular fa-star animate-bounce"></i></td>
+                    <td class=" border text-red-500 text-center"><i class="fa-regular fa-star animate-bounce"></i></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
@@ -258,8 +258,9 @@
                     <td class=" border">A000047041</td>
                     <td class=" border">遮断機副制御装置(ＩＰ仕様)</td>
                     <td class=" border">1</td>
-                    <td class=" border bg-gray-500 text-yellow-300 text-center">★</td>
-                    <td class=" border bg-gray-500 text-yellow-300 text-center">★</td>
+                    <td class=" border text-red-500 text-center"><i class="fa-regular fa-star animate-bounce"></i></td>
+                    <td class=" border text-red-500 text-center"><i class="fa-regular fa-star animate-bounce"></i></td>
+                    <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
@@ -341,6 +342,7 @@
                     <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
+                    <td class=" border"></td>
                 </tr>
                 <tr>
                     <td class=" border">A000047044</td>
@@ -384,6 +386,7 @@
                     <td class=" border bg-gray-200 text-center">×</td>
                     <td class=" border bg-gray-200 text-center">×</td>
                     <td class=" border bg-gray-200 text-center">×</td>
+                    <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>
                     <td class=" border"></td>

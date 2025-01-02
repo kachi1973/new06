@@ -33,14 +33,14 @@
             <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border border-gray-200 rounded-s-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
                 編集
             </button>
-            <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
+            <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
                 登録
             </button>
-            <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
-                &laquo;
+            <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
+                <i class="fa-solid fa-arrow-left"></i>
             </button>
             <button type="button" class="px-4 py-2 text-sm font-medium text-gray-900 bg-white border-t border-b border-gray-200 rounded-e-lg hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-2 focus:ring-blue-700 focus:text-blue-700 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:text-white dark:hover:bg-gray-700 dark:focus:ring-blue-500 dark:focus:text-white">
-                登録
+                <i class="fa-solid fa-arrow-right"></i>
             </button>
         </div>
         <table class="table-fixed w-full mb-3">
@@ -85,6 +85,7 @@
                 </tr>
             </thead>
             <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
+                @for ($i = 0; $i < 10; $i++)
                 <tr>
                     <td class=" border">A000047036</td>
                     <td class=" border">ｲﾝﾀｰ流出部情報板(ＡＨＬ型)</td>
@@ -135,51 +136,7 @@
                         </select>
                     </td>
                 </tr>
-                <tr>
-                    <td class=" border">A000047037</td>
-                    <td class=" border">ゲート情報板(ＣＨＬ型)</td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047038</td>
-                    <td class=" border">機側操作盤</td>
-                    <td class=" border">3</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047039</td>
-                    <td class=" border"></td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047040</td>
-                    <td class=" border">遮断機駆動装置</td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047041</td>
-                    <td class=" border">遮断機副制御装置(ＩＰ仕様)</td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047042</td>
-                    <td class=" border"></td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047043</td>
-                    <td class=" border">遮断機遠隔制御装置(ＩＰ仕様)</td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047044</td>
-                    <td class=" border"></td>
-                    <td class=" border">1</td>
-                </tr>
-                <tr>
-                    <td class=" border">A000047045</td>
-                    <td class=" border">支柱</td>
-                    <td class=" border">1</td>
-                </tr>
+                @endfor
             </tbody>
         </table>
     </div>
