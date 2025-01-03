@@ -5,6 +5,6 @@
         </h2>
     </x-slot>
     <div class="p-3">
-        <x-juchu-table :type="0"/>
+        <x-juchu-table/>
     </div>
 </x-app-layout>

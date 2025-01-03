@@ -30,7 +30,7 @@
                     </div>
                     <div>
                         <label for="website" class="block text-sm font-medium text-gray-900 dark:text-white">&nbsp;</label>
-                        <button type="button" class="cursor-pointer bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+                        <button type="button" class="text-blue-800 bg-blue-100 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium text-sm p-2.5 rounded-lg">
                             検索
                         </button>
                     </div>
@@ -38,55 +38,20 @@
             </div>
             <div class="p-4">
                 <table class="table-auto w-full text-left">
-                    <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
-                        <x-juchu-table-head />
+                    <thead class="bg-gray-200 text-black">
+                        <x-juchu-table-header :selector=true />
                     </thead>
-                    <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
-                        <tr>
-                            <td class=" py-0 border ">23-02201</td>
-                            <td class=" py-0 border ">国）磐城国道</td>
-                            <td class=" py-0 border ">磐城国道管内道路情報設備工事</td>
-                            <td class=" py-0 border "></td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">1回</td>
-                        </tr>
-                        <tr>
-                            <td class=" py-0 border ">23-02017</td>
-                            <td class=" py-0 border ">西）関西支社</td>
-                            <td class=" py-0 border ">中国自動車道　吹田JCT～宝塚IC間ハイウェ…</td>
-                            <td class=" py-0 border "></td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border  flex items-center justify-between cursor-pointer">1回</td>
-                        </tr>
-                        <x-juchu-table-row :type="1" />
-                        <tr class=" py-0 bg-neutral-200">
-                            <td class=" py-0 border ">
-                                &#8627;
-                                24-00587
-                            </td>
-                            <td class=" py-0 border ">東日本高速道路(株)</td>
-                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border "></td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">1回目</td>
-                        </tr>
-                        <tr class=" py-0 bg-neutral-200">
-                            <td class=" py-0 border ">
-                                &#8627;
-                                24-00587
-                            </td>
-                            <td class=" py-0 border ">東日本高速道路(株)</td>
-                            <td class=" py-0 border ">令和６年度 会津若松管内 可変式速度規制標…</td>
-                            <td class=" py-0 border "></td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">〇</td>
-                            <td class=" py-0 border ">2回目</td>
-                        </tr>
+                    <tbody class="bg-white text-gray-500">
+                        <x-juchu-table-row :selector=true/>
+                        <x-juchu-table-row :selector=true/>
+                        <x-juchu-table-row :selector=true/>
+                        <x-juchu-table-row :selector=true/>
+                        <x-juchu-table-row :selector=true/>
                     </tbody>
                 </table>
+                <div class="text-right">
+                    <x-paginator/>
+                </div>
             </div>
         </div>
     </div>

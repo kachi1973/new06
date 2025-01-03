@@ -5,7 +5,7 @@
         </h2>
     </x-slot>
     <div class="p-3">
-        <x-juchu-table :type="0"/>
+        <x-juchu-table/>
         <div class="grid grid-cols-3 gap-4">
             <div>
                 <table class="table-fixed w-full mb-3">
@@ -13,15 +13,15 @@
                         <col class="w-1"/>
                         <col class="w-3"/>
                     </colgroup>
-                    <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
+                    <tbody class="bg-white text-gray-500">
                         <tr>
-                            <th class="border bg-[#6b7280] text-[#e5e7eb]">立会日</th>
+                            <th class="border bg-gray-200 text-black">立会日</th>
                             <td class="border">
                                 <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                             </td>
                         </tr>
                         <tr>
-                            <th class="border bg-[#6b7280] text-[#e5e7eb]">工期</th>
+                            <th class="border bg-gray-200 text-black">工期</th>
                             <td class="border">
                                 <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                             </td>
@@ -36,7 +36,7 @@
                         <col class="w-1"/>
                         <col class="w-1"/>
                     </colgroup>
-                    <thead class="bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
+                    <thead class="bg-gray-200 text-black">
                         <tr>
                             <th colspan="3">亜鉛溶射</th>
                         </tr>
@@ -50,7 +50,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
+                    <tbody class="bg-white text-gray-500">
                         <tr>
                             <td class="border">
                                 <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
@@ -77,7 +77,7 @@
                         <col class="w-1"/>
                         <col class="w-1"/>
                     </colgroup>
-                    <thead class="bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
+                    <thead class="bg-gray-200 text-black">
                         <tr>
                             <th colspan="5">塗装</th>
                         </tr>
@@ -93,7 +93,7 @@
                             </th>
                         </tr>
                     </thead>
-                    <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
+                    <tbody class="bg-white text-gray-500">
                         <tr>
                             <td class="border">
                                 <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
@@ -145,7 +145,7 @@
                 <col class="w-2"/>
                 <col class="w-2"/>
             </colgroup>
-            <thead class="uppercase bg-[#6b7280] text-[#e5e7eb]" style="background-color: #6b7280; color: #e5e7eb;">
+            <thead class="bg-gray-200 text-black">
                 <tr>
                     <td class="border text-center" rowspan="2">製番</td>
                     <td class="border text-center" rowspan="2">契約品名</td>
@@ -172,75 +172,75 @@
                     <td class="border text-center">④</td>
                 </tr>
             </thead>
-            <tbody class="bg-white text-gray-500 bg-[#FFFFFF] text-[#6b7280]" style="background-color: #FFFFFF; color: #6b7280;">
+            <tbody class="bg-white text-gray-500">
                 @for ($i = 0; $i < 10; $i++)
                 <tr>
-                    <td class=" border">A000046292</td>
-                    <td class=" border">ﾊｲｳｪｲﾗｼﾞｵ始点案内標識</td>
-                    <td class=" border">2</td>
-                    <td class=" border">ｼﾝｺｰﾒﾀﾘｺﾝ</td>
-                    <td class=" border">
+                    <td class="border">A000046292</td>
+                    <td class="border">ﾊｲｳｪｲﾗｼﾞｵ始点案内標識</td>
+                    <td class="border">2</td>
+                    <td class="border">ｼﾝｺｰﾒﾀﾘｺﾝ</td>
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>Z1</option>
                             <option>Z2</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                     </td>
-                    <td class=" border">ｻﾝﾀﾞｲ(岩倉)</td>
-                    <td class=" border">
+                    <td class="border">ｻﾝﾀﾞｲ(岩倉)</td>
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>Vﾄｯﾌﾟ</option>
                             <option>Vﾌﾛﾝ</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>N1.0</option>
                             <option>N3.0</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>(全)</option>
                             <option>(7分)</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>20ｋｇ</option>
                             <option>5ｋｇ</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <input type="number" id="number-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <input type="date" id="last_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <input type="text" id="number-input" aria-describedby="helper-text-explanation" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>SPCC-t2.3</option>
                             <option>SPCC-t3.2</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>SPCC-t2.3</option>
                             <option>SPCC-t3.2</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>SPCC-t2.3</option>
                             <option>SPCC-t3.2</option>
                         </select>
                     </td>
-                    <td class=" border">
+                    <td class="border">
                         <select class="rounded-lg w-full">
                             <option selected>SPCC-t2.3</option>
                             <option>SPCC-t3.2</option>
