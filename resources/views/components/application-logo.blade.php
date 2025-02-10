@@ -1,1 +1,1 @@
-<img src="/favicon.ico" width="36" />
+<img src="/icon.svg" width="36" />
