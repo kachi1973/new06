@@ -31,7 +31,10 @@ Route::get('/iraisaki', App\Http\Controllers\Iraisaki\ShowController::class)
 Route::get('/kozai', App\Http\Controllers\Kozai\ShowController::class)
     ->middleware(['auth'])
     ->name('kozai.show');
-Route::get('/kasekisai', App\Http\Controllers\Kasekisai\ShowController::class)
+Route::get('/kasekisai', App\Http\Controllers\Kasekisai\IndexController::class)
+    ->middleware(['auth'])
+    ->name('kasekisai.index');
+Route::get('/kasekisai/show', App\Http\Controllers\Kasekisai\ShowController::class)
     ->middleware(['auth'])
     ->name('kasekisai.show');
 Route::get('/satuei', App\Http\Controllers\Satuei\IndexController::class)

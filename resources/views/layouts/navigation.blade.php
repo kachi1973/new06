@@ -52,7 +52,7 @@
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('kasekisai.show')" :active="request()->routeIs('kasekisai.show')">
+                    <x-nav-link :href="route('kasekisai.index')" :active="request()->routeIs('kasekisai.index')">
                         過積載防止
                     </x-nav-link>
                 </div>
