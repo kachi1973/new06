@@ -171,12 +171,10 @@
                     <td class="border border-black">
                         <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
                     </td>
-                    <td class="border border-black">
-                        <select id="countries" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
-                            <option selected>合格</option>
-                            <option>不合格</option>
-                          </select>
-                        </td>
+                    <td class="border border-black text-center">
+                        <label>合格</label>
+                        <input type="checkbox" class="form-checkbox h-5 w-5 text-blue-600">
+                    </td>
                 </tr>
             </tbody>
         </table>
