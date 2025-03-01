@@ -51,9 +51,17 @@
                         鋼材証明書
                     </x-nav-link>
                 </div>
-                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
-                    <x-nav-link :href="route('kasekisai.index')" :active="request()->routeIs('kasekisai.index')">
+                <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex text-center">
+                    <x-nav-link :href="route('kasekisai.index')" :active="request()->routeIs('kasekisai.*')">
                         過積載防止
+                        @switch(request()->route()->getName())
+                        @case('kasekisai.index')
+                            <br>&minus;一覧&minus;
+                            @break
+                        @case('kasekisai.show')
+                            <br>&minus;詳細&minus;
+                            @break
+                        @endswitch
                     </x-nav-link>
                 </div>
                 <div class="hidden space-x-8 sm:-my-px sm:ms-10 sm:flex">
