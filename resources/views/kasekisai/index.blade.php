@@ -5,6 +5,11 @@
         </h2>
     </x-slot>
     <div class="p-3">
+        <div class="pl-3 pb-3">
+            <a href="{{route('kasekisai.show')}}" class="text-blue-800 bg-blue-100 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-1 rounded-lg">
+                新規
+            </a>
+        </div>
         <table class="table-auto w-full text-left">
             <thead class="bg-gray-200 text-black">
                 <tr>

@@ -5,14 +5,12 @@
         </h2>
     </x-slot>
     <div class="p-3" style="width: 900px;">
-        <div class="p-3">
+        <div class="py-3">
             <button type="button" class="text-blue-800 bg-blue-100 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-1 rounded-lg">
                 保存
             </button>
-            <button type="button" class="text-blue-800 bg-blue-100 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-1 rounded-lg">
-                出荷指示選択
-            </button>
         </div>
+        <livewire:kasekisai.shukasiji />
         <table class='table-fixed bg-white w-full mb-3'>
             <tbody>
                 <tr>
@@ -115,29 +113,7 @@
             </thread>
             <tbody>
                 @for ($i = 1; $i <= 15; $i++)
-                    <tr>
-                        <th class="border border-black">{{ $i }}</th>
-                        <th class="border border-black">
-                            <button type="button" class="text-blue-800 bg-blue-100 hover:bg-blue-300 focus:ring-4 focus:ring-blue-300 font-medium text-sm px-2 py-1 rounded-lg">
-                                製番選択
-                            </button>
-                        </th>
-                        <th class="border border-black">
-                            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
-                        </th>
-                        <th class="border border-black">
-                            <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
-                        </th>
-                        <th class="border border-black">
-                            <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
-                        </th>
-                        <th class="border border-black">
-                            <input type="number" id="visitors" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="" required />
-                        </th>
-                        <th class="border border-black">
-                            <input type="text" id="first_name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-1 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500"/>
-                        </th>
-                    </tr>
+                    <livewire:kasekisai.row />
                 @endfor
                 <tr>
                     <th class="border border-black">16</th>
